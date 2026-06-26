@@ -139,7 +139,7 @@ IF(Change > 0, "▲ " & FORMAT(Change, "0.0%"), "▼ " & FORMAT(ABS(Change), "0.
 
 ### Delivery & Operations
 ```dax
--- Calculated Column (not a measure)
+-- Calculated Column & measures
 Delivery Days = DATEDIFF('Orders'[Order Date], 'Orders'[Ship Date], DAY)
 
 Avg Delivery Days = AVERAGE('Orders'[Delivery Days])
@@ -289,8 +289,7 @@ git clone https://github.com/vivianokoaze/analystlab-africa-week-4-task-supersto
 | Challenge | Solution |
 |-----------|----------|
 | Order Date and Ship Date imported as Text type | Changed data type to Date in Power Query Editor |
-| Avg Delivery Days created as a Column instead of Measure | Deleted column and recreated as a DAX Measure using `AVERAGE()` |
-| Map visual not recognising US state names | Set Data Category of State column to "State or Province" and added Country column |
+| Avg Delivery Days created as a Column instead of Measure | Deleted column and recreated as a DAX Measure using `AVERAGE()` 
 | Line chart x-axis too crowded with monthly labels | Removed combined date field and used Year only on X-axis with drill-down hierarchy |
 | Growth indicator arrows not available in older Power BI version | Built arrow symbols directly into DAX measure using `IF` and `FORMAT` functions |
 
@@ -311,4 +310,3 @@ This project is for educational purposes. The dataset is publicly available on K
 
 ---
 
-> *"The goal is to turn data into information, and information into insight."* — Carly Fiorina
