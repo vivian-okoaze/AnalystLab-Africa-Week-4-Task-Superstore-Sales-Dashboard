@@ -245,7 +245,6 @@ superstore-powerbi-dashboard/
 ├── 📄 Sample - Superstore.csv            # Raw dataset (from Kaggle)
 ├── 📋 README.md                          # Project documentation
 │
-├── 📁 screenshots/
 │   ├── page1_sales_overview.png          # Sales Overview dashboard screenshot
 │   └── page2_delivery_performance.png   # Customer & Delivery dashboard screenshot
 │
