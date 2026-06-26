@@ -105,7 +105,7 @@ The project was designed to answer real business questions that a retail executi
 | Total Sales | $2.30M | Grew 51% from 2014 to 2017 |
 | Total Profit | $286.4K | Thin but positive across 4 years |
 | Profit Margin | 12.47% | Below 15% target — room to improve |
-| Total Orders | 9,994 | Consistent order volume growth |
+| Total Orders | 5,009 | Consistent order volume growth |
 | Avg Order Value | $458.61 | Corporate segment drives highest AOV |
 | Avg Delivery Days | 3.96 days | Acceptable but Q1 2018 spiked to 4.93 |
 | On-Time Delivery Rate | 60% | Below 80% industry benchmark |
